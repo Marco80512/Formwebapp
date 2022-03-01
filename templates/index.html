@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html>
-<body>
+<head><title> Job Application </title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> 
+</head>
 
-<h2>HTML Forms</h2>
+<body>
+<script src="{{ url_for('static', filename='script.js') }}">
+
+</script>
+
+<h2></h2>
 
 <form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br><br>
-  <label for="fname">Middle name:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
-  <label for="lname">Age:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br><br>
-  <input type="submit" value="Submit">
 
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+  <label for="lname">Age:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+  <label for="lname">Date of Birth:</label><br>
+  <input type="text" id="lname" name="lname" value="DD/MM/YYYY"><br><br>
+
+  
+  
 </form> 
 
 
