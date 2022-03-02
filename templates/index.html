@@ -3,7 +3,7 @@
 <head><title> Job Application </title>
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> 
 </head>
-
+<h1>Manager Form</h1>
 <body>
 <script src="{{ url_for('static', filename='script.js') }}">
 
@@ -11,18 +11,28 @@
 
 <h2></h2>
 
-<form action="/action_page.php">
+<form action="/action_page.php" id=FN>
 
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value=""><br>
+  <label id="FN"for="fname">First name:</label><br>
+  <input type="text" id="Fname" name="fname" value=""><br>
   <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value=""><br><br>
+  <input type="text" id="Lname" name="lname" value=""><br><br>
   <label for="lname">Age:</label><br>
-  <input type="text" id="lname" name="lname" value=""><br><br>
+  <input type="text" id="Lname" name="lname" value=""><br><br>
   <label for="lname">Date of Birth:</label><br>
-  <input type="text" id="lname" name="lname" value="DD/MM/YYYY"><br><br>
-
+  <input type="text" id="Lname" name="lname" value="DD/MM/YYYY"><br><br>
   
+
+  <label for="Form">Area code:</label><br>
+  <input type="text" id="Form" name="Form" value=""><br>
+  <label for="Form1">Phone Number:</label><br>
+  <input type="text" id="Form1" name="Form1" value=""><br><br>
+  <label for="Form2">Email:</label><br>
+  <input type="text" id="Form2" name="Form2" value=""><br><br>
+  <label for="Form3">Cover Letter:</label><br>
+  <input type="text" id="Form3" name="Form3" value=""><br><br>
+  <textarea id="Form3" name="Form3" rows="4" cols="50">
+  <input type="submit" value="Submit">
   
 </form> 
 
