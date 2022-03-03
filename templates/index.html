@@ -1,17 +1,30 @@
 <!DOCTYPE html>
-<html>
-<head><title> Job Application </title>
-<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> 
-</head>
-<h1>Manager Form</h1>
-<body>
-<script src="{{ url_for('static', filename='script.js') }}">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
 
-</script>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-<h2></h2>
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<form action="/action_page.php" id=FN>
+    <script src="script.js"></script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Job Application</title>
+</body>
+</html>
+
+<form action="/action_page.php">
 
   <label id="FN"for="fname">First name:</label><br>
   <input type="text" id="Fname" name="fname" value=""><br>
@@ -32,9 +45,31 @@
   <label for="Form3">Cover Letter:</label><br>
   <input type="text" id="Form3" name="Form3" value=""><br><br>
   <textarea id="Form3" name="Form3" rows="4" cols="50">
-  <input type="submit" value="Submit">
+ 
   
-</form> 
+  
+  Name: <input type="text" name="name" value="<?php echo $name;?>">
+
+  E-mail: <input type="text" name="email" value="<?php echo $email;?>">
+
+  Website: <input type="text" name="website" value="<?php echo $website;?>">
+
+  Comment: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea>
+
+  Gender:
+  <input type="radio" name="gender"
+  <?php if (isset($gender) && $gender=="female") echo "checked";?>
+  value="female">Female
+  <input type="radio" name="gender"
+  <?php if (isset($gender) && $gender=="male") echo "checked";?>
+  value="male">Male
+  <input type="radio" name="gender"
+  <?php if (isset($gender) && $gender=="other") echo "checked";?>
+  value="other">Other
+  
+   <input type="submit" value="Submit">
+   
+  </form> 
 
 
 
