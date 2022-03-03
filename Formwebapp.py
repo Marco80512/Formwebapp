@@ -13,9 +13,16 @@ def render_page1():
 @app.route("/p2")
 def render_page2():
     return render_template('page2.html')
-    
-    
-    
+ 
+
+@app.route("/")
+def render_main():
+    return render_template('index.html')
+ 
+ 
+ define variables and set to empty values
+$nameErr = $emailErr = $genderErr = $websiteErr = "";
+$name = $email = $gender = $comment = $website = "";   
     
     
 if __name__=="__main__":
