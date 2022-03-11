@@ -10,6 +10,10 @@
 
    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <script src="home.html"></script>
+    
+    <script src="PTJ.html"></script>
 
     <script src="script.js"></script>
     
@@ -44,7 +48,7 @@
             <a class="nav-link" href="Form Page.html">Form Page</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="page2.html">Job Page</a>
+            <a class="nav-link" href="page2.html">Part Time Job Page</a>
           </li>    
          
         </ul>
@@ -70,8 +74,16 @@
   <label for="Form2">Email:</label><br>
   <input type="text" id="Form2" name="Form2" value=""><br><br>
   
-  Job Experiences: <textarea name="Job Experiences" rows="5" cols="40"></textarea>
- 
+  Part time job List:
+  <input type="radio" name="gender"
+   if (isset($gender) && $gender=="English") echo "checked";
+  value="English">English
+  <input type="radio" name="gender"
+  if (isset($gender) && $gender=="Spanish") echo "checked";
+  value="Spanish">Spanish
+  <input type="radio" name="gender"
+  if (isset($gender) && $gender=="other") echo "checked";
+  value="other">Other
   
   
   
