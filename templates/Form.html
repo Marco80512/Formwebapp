@@ -11,8 +11,6 @@
    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     
-    <script src="home.html"></script>
-    
     <script src="PTJ.html"></script>
 
     <script src="script.js"></script>
@@ -75,22 +73,10 @@
   <input type="text" id="Form2" name="Form2" value=""><br><br>
   
   
- 
-
-  Languages:
-  <input type="radio" name="gender"
-   if (isset($gender) && $gender=="English") echo "checked";
-  value="English">English
-  <input type="radio" name="gender"
-  if (isset($gender) && $gender=="Spanish") echo "checked";
-  value="Spanish">Spanish
-  <input type="radio" name="gender"
-  if (isset($gender) && $gender=="other") echo "checked";
-  value="other">Other
+  <label for="Form2">Languages:</label><br>
+  <input type="text" id="Form2" name="Form2" value=""><br><br>
   
-  
-   <input type="submit" value="Submit">
-   
+  <input type="submit" name="submit" value="Submit"> 
   </form> 
 
 
