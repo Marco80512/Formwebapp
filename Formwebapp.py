@@ -15,7 +15,7 @@ def render_response():
     c3 = request.args['choice3']
     
 if c1 == 'Eggs' and c2 == 'French toast' and c3 == 'Syrup':
-    return render_tepmlate('PTJ.html) 
+    return render_tepmlate('PTJ.html') 
     Meal = Markup('<img src="EFTS.jpg" alt="You have made French toast with Syrup" width="500" height="600">
     <p> Where does this go?</p>
     
