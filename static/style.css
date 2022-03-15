@@ -1,8 +1,25 @@
  body{
-  border: 1px solid black;
   margin-top: 100px;
   margin-bottom: 100px;
   margin-right: 150px;
   margin-left: 80px;
   background-color: lightblue;
+ }
+ p{
+   font-size: 17px;   
+ }
+ #Lname{
+   font-size: 17px; 
+ }
+ #Fname{
+   font-size: 17px;  
+ }
+ #Choice1{
+   font-size: 17px;
+ }
+ #Choice2{
+   font-size: 17px;
+ }
+ #Choice3{
+   font-size: 17px;
  }
