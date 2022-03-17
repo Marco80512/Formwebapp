@@ -23,32 +23,7 @@
  #Choice3{
    font-size: 17px;
  }
- #1{
-  
-  margin-right: 500px;
-  margin-left: 80px;
- }
- #2{
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 500px;
-  margin-left: 80px;
- }
- #3{
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 500px;
-  margin-left: 80px;
- }
- #4{
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 500px;
-  margin-left: 80px;
- }
- #5{
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 500px;
-  margin-left: 80px;
+ .E1{
+   display: block;
+   margin: auto;
  }
